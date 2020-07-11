@@ -1,4 +1,7 @@
 description: Plex friend invitation status
 readOnly: true
 type: string
-example: "accepted"
+example: accepted
+enum:
+  - accepted
+  - pending

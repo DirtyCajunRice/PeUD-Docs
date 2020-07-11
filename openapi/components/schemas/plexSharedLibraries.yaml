@@ -1,4 +1,5 @@
-description: Plex semicolon delimited string of library ids
+description: Plex string of library ids
 readOnly: true
 type: string
 example: "1;3;4"
+format: semicolon-delimited

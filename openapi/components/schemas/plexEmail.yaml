@@ -2,3 +2,4 @@ description: Plex email address
 readOnly: true
 type: string
 example: plexuser1@gmail.com
+format: email

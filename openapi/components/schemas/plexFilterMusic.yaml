@@ -1,4 +1,5 @@
-description: Plex semicolon delimited string of filters for music libraries
+description: Plex string of filters for music libraries
 readOnly: true
 type: string
 example: "label=test1&label!=test2"
+format: ampersand-delimited
