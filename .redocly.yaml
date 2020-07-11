@@ -35,4 +35,4 @@ referenceDocs:
       backgroundColor: '#263238'
     links:
       color: '#6CC496'
-  htmlTemplate: ./docs/index.html
+  htmlTemplate: ./template/index.html
