@@ -4,7 +4,7 @@ get:
   summary: Retrieve a list of Users from a service
   description: |
     Get a list of users from a service
-  operationId: getPlexUserList
+  operationId: getUserServiceList
   parameters:
     - $ref: ../components/parameters/service.yaml
     - $ref: ../components/parameters/plexUserID.yaml
@@ -21,10 +21,10 @@ get:
     - api_key: []
   responses:
     '200':
-      $ref: ../components/responses/plexUsers.yaml
+      $ref: ../components/responses/users@{service}.yaml
     '403':
       description: Forbidden
     '404':
       description: User not found
   x-codeSamples:
-    - $ref: ../code_samples/Python/users@plex/get.yaml
+    - $ref: ../code_samples/Python/users@{service}/get.yaml

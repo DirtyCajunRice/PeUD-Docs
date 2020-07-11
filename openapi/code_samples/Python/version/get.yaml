@@ -1,4 +1,5 @@
 lang: Python
+label: Python3
 source: |
   import requests
   r = requests.get("http://127.0.0.1:8888/version")

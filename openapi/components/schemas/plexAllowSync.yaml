@@ -1,0 +1,4 @@
+description: Plex account sync status
+readOnly: true
+type: boolean
+example: false

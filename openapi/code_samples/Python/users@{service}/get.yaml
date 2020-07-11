@@ -1,0 +1,7 @@
+lang: Python
+label: Python3
+source: |
+  import requests
+  service = "peud"
+  response = requests.get(f"http://127.0.0.1:8888/users/{service}")
+  response.json()

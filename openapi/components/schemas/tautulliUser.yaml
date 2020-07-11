@@ -1,20 +1,48 @@
 type: object
 properties:
+  row_id:
+    $ref: tautulliRowID.yaml
   user_id:
-    $ref: ./plexUserID.yaml
+    $ref: plexUserID.yaml
   username:
-    $ref: ./plexUsername.yaml
+    $ref: plexUsername.yaml
+  friendly_name:
+    $ref: tautulliFriendlyName.yaml
   email:
-    $ref: ./plexEmail.yaml
+    $ref: plexEmail.yaml
   thumb:
-    $ref: ./plexThumb.yaml
+    $ref: plexThumb.yaml
+  is_active:
+    $ref: tautulliIsActive.yaml
   is_home_user:
-    $ref: ./plexHome.yaml
+    $ref: plexHome.yaml
   is_restricted:
-    $ref: ./plexRestricted.yaml
+    $ref: plexRestricted.yaml
   is_admin:
-    $ref: ./plexAdmin.yaml
+    $ref: plexAdmin.yaml
   is_guest:
-    $ref: ./plexGuest.yaml
+    $ref: plexGuest.yaml
+  is_allow_sync:
+    $ref: plexAllowSync.yaml
   protected:
-    $ref: ./plexProtected.yaml
+    $ref: plexProtected.yaml
+  filter_all:
+    $ref: plexFilterAll.yaml
+  filter_movies:
+    $ref: plexFilterMovies.yaml
+  filter_music:
+    $ref: plexFilterMusic.yaml
+  filter_photos:
+    $ref: plexFilterPhotos.yaml
+  filter_television:
+    $ref: plexFilterTelevision.yaml
+  do_notify:
+    $ref: tautulliDoNotify.yaml
+  keep_history:
+    $ref: tautulliKeepHistory.yaml
+  allow_guest:
+    $ref: tautulliAllowGuest.yaml
+  server_token:
+    $ref: plexServerToken.yaml
+  shared_libraries:
+    $ref: plexSharedLibraries.yaml
