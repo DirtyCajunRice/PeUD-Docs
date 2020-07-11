@@ -1,0 +1,4 @@
+description: Tautulli friendly name
+readOnly: true
+type: string
+example: "John Doe"

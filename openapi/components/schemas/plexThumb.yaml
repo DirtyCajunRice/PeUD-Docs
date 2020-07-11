@@ -1,0 +1,4 @@
+description: Plex thumbnail URL
+readOnly: true
+type: string
+example: https://plex.tv/users/a9s0df87a09sdf78/avatar?c=123412341234

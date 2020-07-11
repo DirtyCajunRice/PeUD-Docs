@@ -1,0 +1,12 @@
+get:
+  tags:
+    - general
+  summary: Get the version
+  description: |
+    Get the version number and build date of PeUD
+  operationId: getVersion
+  responses:
+    '200':
+      $ref: ../components/responses/version.yaml
+  x-codeSamples:
+    - $ref: ../code_samples/Python/version/get.yaml

@@ -1,0 +1,4 @@
+description: Tautulli flag for user notifications
+readOnly: true
+type: boolean
+example: true

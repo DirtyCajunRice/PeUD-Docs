@@ -1,0 +1,4 @@
+description: Plex semicolon delimited string of filters for television libraries
+readOnly: true
+type: string
+example: "label=test1&label!=test2"

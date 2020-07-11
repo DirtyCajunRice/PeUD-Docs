@@ -1,0 +1,4 @@
+description: Tautulli flag for keeping watch history
+readOnly: true
+type: boolean
+example: true

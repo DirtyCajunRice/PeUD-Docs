@@ -1,0 +1,5 @@
+name: admin
+in: query
+description: Filter users by Plex admin status
+schema:
+  type: boolean

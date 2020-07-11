@@ -1,0 +1,4 @@
+description: Tautulli flag for user match with plex friend
+readOnly: true
+type: boolean
+example: true

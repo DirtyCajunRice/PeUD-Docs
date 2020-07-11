@@ -1,0 +1,4 @@
+description: Plex server token
+readOnly: true
+type: string
+example: HadNHxnV9AoJAmyRWpGLGD

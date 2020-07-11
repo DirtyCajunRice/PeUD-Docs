@@ -1,0 +1,5 @@
+name: id
+in: query
+description: Filter users by Plex ID
+schema:
+  type: integer

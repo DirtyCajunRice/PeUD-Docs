@@ -1,0 +1,4 @@
+description: Plex administrator account status
+readOnly: true
+type: boolean
+example: false

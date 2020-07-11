@@ -1,0 +1,5 @@
+name: username
+in: query
+description: Filter users by Plex username
+schema:
+  type: string

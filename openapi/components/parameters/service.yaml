@@ -1,0 +1,13 @@
+name: service
+in: path
+description: Name of service to query
+required: true
+style: form
+schema:
+  type: string
+  enum:
+    - peud
+    - plex
+    - tautulli
+    - ombi
+    - organizr

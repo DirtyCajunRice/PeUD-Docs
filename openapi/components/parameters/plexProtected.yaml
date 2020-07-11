@@ -1,0 +1,5 @@
+name: protected
+in: query
+description: Filter users by Plex protected status
+schema:
+  type: boolean

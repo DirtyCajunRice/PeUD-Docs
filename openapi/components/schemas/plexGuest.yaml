@@ -1,0 +1,4 @@
+description: plex guest account status
+readOnly: true
+type: boolean
+example: false

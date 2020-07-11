@@ -1,0 +1,4 @@
+description: Server build version
+readOnly: true
+type: string
+example: 0.1.0

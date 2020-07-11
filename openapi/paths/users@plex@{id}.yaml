@@ -1,0 +1,29 @@
+get:
+  tags:
+    - user
+  summary: Retrieve a list of Plex users
+  description: |
+    Get a list of Plex users that is identical to the upstream plex API
+  operationId: getPlexUserList
+  parameters:
+    - $ref: ../components/parameters/plexUserID.yaml
+    - $ref: ../components/parameters/plexUUID.yaml
+    - $ref: ../components/parameters/plexUsername.yaml
+    - $ref: ../components/parameters/plexEmail.yaml
+    - $ref: ../components/parameters/plexHome.yaml
+    - $ref: ../components/parameters/plexStatus.yaml
+    - $ref: ../components/parameters/plexAdmin.yaml
+    - $ref: ../components/parameters/plexProtected.yaml
+  security:
+    - plex_auth:
+        - 'read:users'
+    - api_key: []
+  responses:
+    '200':
+      $ref: ../components/responses/plexUsers.yaml
+    '403':
+      description: Forbidden
+    '404':
+      description: User not found
+  x-codeSamples:
+    - $ref: ../code_samples/Python/users@plex/get.yaml

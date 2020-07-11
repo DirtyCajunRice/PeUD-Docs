@@ -1,0 +1,4 @@
+description: Server build date
+readOnly: true
+type: string
+example: 2020-07-03T07:01:59Z

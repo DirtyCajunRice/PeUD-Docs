@@ -1,0 +1,20 @@
+type: object
+properties:
+  user_id:
+    $ref: ./plexUserID.yaml
+  username:
+    $ref: ./plexUsername.yaml
+  email:
+    $ref: ./plexEmail.yaml
+  thumb:
+    $ref: ./plexThumb.yaml
+  is_home_user:
+    $ref: ./plexHome.yaml
+  is_restricted:
+    $ref: ./plexRestricted.yaml
+  is_admin:
+    $ref: ./plexAdmin.yaml
+  is_guest:
+    $ref: ./plexGuest.yaml
+  protected:
+    $ref: ./plexProtected.yaml

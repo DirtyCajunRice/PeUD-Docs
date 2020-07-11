@@ -1,0 +1,5 @@
+name: uuid
+in: query
+description: Filter users by Plex UUID
+schema:
+  type: string

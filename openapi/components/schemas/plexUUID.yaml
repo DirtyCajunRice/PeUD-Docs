@@ -1,0 +1,4 @@
+description: Plex UUID
+readOnly: true
+type: string
+example: 0986fg6dh0786u0fgh

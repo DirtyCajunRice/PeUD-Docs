@@ -1,0 +1,5 @@
+name: status
+in: query
+description: Filter users by Plex friendship status
+schema:
+  type: string

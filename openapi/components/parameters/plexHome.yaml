@@ -1,0 +1,5 @@
+name: home
+in: query
+description: Filter users by Plex home membership
+schema:
+  type: boolean

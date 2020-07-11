@@ -1,0 +1,4 @@
+description: Plex user title
+readOnly: true
+type: string
+example: PlexUser1

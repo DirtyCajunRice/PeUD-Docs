@@ -1,0 +1,5 @@
+name: email
+in: query
+description: Filter users by Plex email address
+schema:
+  type: string
