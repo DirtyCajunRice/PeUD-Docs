@@ -1,12 +1,12 @@
 get:
   tags:
-    - user
+    - User
   summary: Retrieve a list of users for a service
   description: |
     Get a list of users from a service
   operationId: getUsersServiceList
   parameters:
-    - $ref: ../components/parameters/service.yaml
+    - $ref: ../components/parameters/pathService.yaml
     - $ref: ../components/parameters/plexUserID.yaml
     - $ref: ../components/parameters/plexUUID.yaml
     - $ref: ../components/parameters/plexUsername.yaml

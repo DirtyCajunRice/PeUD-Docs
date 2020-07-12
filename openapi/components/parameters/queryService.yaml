@@ -1,0 +1,12 @@
+name: only
+in: query
+description: Name of service to filter
+explode: false
+schema:
+  type: string
+  enum:
+    - plex
+    - tautulli
+    - ombi
+    - organizr
+  default: "all"

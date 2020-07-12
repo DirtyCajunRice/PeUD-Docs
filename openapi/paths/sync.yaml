@@ -1,0 +1,22 @@
+put:
+  tags:
+    - Server
+  summary: Sync services with PeUD
+  description: |
+    Manually sync upstream services with their local PeUD databases
+  operationId: syncService
+  parameters:
+    - $ref: ../components/parameters/queryService.yaml
+  security:
+    - plex_auth:
+        - 'read:users'
+    - api_key: []
+  responses:
+    '204':
+      description: No content
+    '207':
+      description: Partial Success
+    '502':
+      description: Bad Gateway
+#  x-codeSamples:
+#    - $ref: ../code_samples/Python/users@{service}/get.yaml

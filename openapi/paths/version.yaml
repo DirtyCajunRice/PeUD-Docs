@@ -1,6 +1,6 @@
 get:
   tags:
-    - information
+    - Information
   summary: Get the version
   description: |
     Get the version number and build date of PeUD

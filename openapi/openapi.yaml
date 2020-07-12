@@ -22,6 +22,8 @@ servers:
 paths:
   /version:
     $ref: paths/version.yaml
+  /sync:
+    $ref: paths/sync.yaml
   '/users/{service}':
     $ref: paths/users@{service}.yaml
   '/users/{service}/{id}':
@@ -51,7 +53,9 @@ components:
       name: api_key
 tags:
   - name: User
-    description: Operations about user
+    description: User operations
+  - name: Server
+    description: Server operations
   - name: peud_user_model
     x-displayName: The PeUD User Model
     description: |
@@ -80,10 +84,11 @@ tags:
 x-tagGroups:
   - name: General
     tags:
-      - information
-  - name: User Management
+      - Information
+  - name: Management
     tags:
-      - user
+      - User
+      - Server
   - name: Models
     tags:
       - peud_user_model
