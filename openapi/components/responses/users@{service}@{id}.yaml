@@ -5,3 +5,4 @@ content:
       oneOf:
         - $ref: ../schemas/plex/user.yaml
         - $ref: ../schemas/tautulli/user.yaml
+        - $ref: ../schemas/organizr/user.yaml

@@ -1,0 +1,4 @@
+description: Organizr group ID
+readOnly: true
+type: integer
+example: 2

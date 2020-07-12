@@ -1,0 +1,5 @@
+description: Organizr user profile image
+readOnly: true
+type: string
+format: url
+example: https://www.gravatar.com/avatar/421333dd875f317629be?s=100&d=mm

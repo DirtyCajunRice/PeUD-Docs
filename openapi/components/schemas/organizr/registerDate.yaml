@@ -1,0 +1,5 @@
+description: Organizr date of registration
+readOnly: true
+type: string
+example: 2020-07-03T07:01:59Z
+format: date-time

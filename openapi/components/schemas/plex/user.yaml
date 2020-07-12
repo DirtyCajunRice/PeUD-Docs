@@ -1,7 +1,7 @@
 type: object
 properties:
   id:
-    $ref: userID.yaml
+    $ref: ID.yaml
   uuid:
     $ref: UUID.yaml
   hasPassword:

@@ -3,7 +3,7 @@ properties:
   row_id:
     $ref: rowID.yaml
   user_id:
-    $ref: ../plex/userID.yaml
+    $ref: ../plex/ID.yaml
   username:
     $ref: ../plex/username.yaml
   friendly_name:

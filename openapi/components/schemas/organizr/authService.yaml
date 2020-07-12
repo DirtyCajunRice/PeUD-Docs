@@ -1,0 +1,4 @@
+description: Organizer authorization service
+readOnly: true
+type: string
+example: internal

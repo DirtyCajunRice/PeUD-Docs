@@ -34,8 +34,8 @@ components:
       $ref: components/schemas/tautulli/user.yaml
 #    ombiUser:
 #      $ref: components/schemas/ombiUser.yaml
-#    organizrUser:
-#      $ref: components/schemas/organizrUser.yaml
+    organizrUser:
+      $ref: components/schemas/organizr/user.yaml
   securitySchemes:
     plex_auth:
       type: oauth2
@@ -71,12 +71,12 @@ tags:
     x-displayName: The Organizr User Model
     description: |
       This is the Organizr User model as it is given to us by Organizr
-      <SchemaDefinition schemaRef="#/components/schemas/plexUser" />
-  - name: ombi_user_model
-    x-displayName: The Ombi User Model
-    description: |
-      This is the Ombi User model... not even close to what we are given by ombi. (more info later)
-      <SchemaDefinition schemaRef="#/components/schemas/plexUser" />
+      <SchemaDefinition schemaRef="#/components/schemas/organizrUser" />
+#  - name: ombi_user_model
+#    x-displayName: The Ombi User Model
+#    description: |
+#      This is the Ombi User model... not even close to what we are given by ombi. (more info later)
+#      <SchemaDefinition schemaRef="#/components/schemas/ombiUser" />
 x-tagGroups:
   - name: General
     tags:

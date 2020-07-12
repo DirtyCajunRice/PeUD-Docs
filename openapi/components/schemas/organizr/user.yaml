@@ -1,0 +1,20 @@
+type: object
+properties:
+  id:
+    $ref: ID.yaml
+  username:
+    $ref: ../plex/username.yaml
+  email:
+    $ref: ../plex/email.yaml
+  plex_token:
+    $ref: ../plex/serverToken.yaml
+  group:
+    $ref: group.yaml
+  group_id:
+    $ref: groupID.yaml
+  image:
+    $ref: image.yaml
+  register_date:
+    $ref: registerDate.yaml
+  auth_service:
+    $ref: authService.yaml

@@ -1,0 +1,4 @@
+description: Organizr user ID
+readOnly: true
+type: integer
+example: 10

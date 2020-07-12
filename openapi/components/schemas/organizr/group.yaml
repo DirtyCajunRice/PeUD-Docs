@@ -1,0 +1,4 @@
+description: Organizr group name
+readOnly: true
+type: string
+example: Co-Admin
