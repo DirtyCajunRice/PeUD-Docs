@@ -1,11 +1,7 @@
 description: A JSON array containing user information
 content:
   application/json:
-    type: array
     schema:
-      items:
-        oneOf:
-         - $ref: ../schemas/plexUser.yaml
-         - $ref: ../schemas/tautulliUser.yaml
-    example:
-      $ref: ../examples/plexUsers.yaml
+      oneOf:
+       - $ref: ../schemas/plexUser.yaml
+       - $ref: ../schemas/tautulliUser.yaml

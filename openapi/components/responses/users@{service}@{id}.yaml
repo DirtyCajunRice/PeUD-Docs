@@ -1,0 +1,7 @@
+description: A JSON object containing user information
+content:
+  application/json:
+    schema:
+      oneOf:
+        - $ref: ../schemas/plexUser.yaml
+        - $ref: ../schemas/tautulliUser.yaml

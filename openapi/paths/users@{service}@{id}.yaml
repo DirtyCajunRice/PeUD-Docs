@@ -1,0 +1,23 @@
+get:
+  tags:
+    - user
+  summary: Retrieve a single user for a service
+  description: |
+    Get a user from a service
+  operationId: getUserServiceList
+  parameters:
+    - $ref: ../components/parameters/service.yaml
+    - $ref: ../components/parameters/id.yaml
+  security:
+    - plex_auth:
+        - 'read:users'
+    - api_key: []
+  responses:
+    '200':
+      $ref: ../components/responses/users@{service}@{id}.yaml
+    '403':
+      description: Forbidden
+    '404':
+      description: User not found
+#  x-codeSamples:
+#    - $ref: ../code_samples/Python/users@{service}/get.yaml

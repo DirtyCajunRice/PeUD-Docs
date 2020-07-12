@@ -24,6 +24,8 @@ paths:
     $ref: paths/version.yaml
   '/users/{service}':
     $ref: paths/users@{service}.yaml
+  '/users/{service}/{id}':
+    $ref: paths/users@{service}@{id}.yaml
 components:
   schemas:
     plexUser:
@@ -34,19 +36,6 @@ components:
 #      $ref: components/schemas/ombiUser.yaml
 #    organizrUser:
 #      $ref: components/schemas/organizrUser.yaml
-  examples:
-    plexUser:
-      value:
-        $ref: components/examples/plexUser.yaml
-    tautulliUser:
-      value:
-        $ref: components/examples/tautulliUser.yaml
-    ombiUser:
-      value:
-        $ref: components/examples/ombiUser.yaml
-    organizrUser:
-      value:
-        $ref: components/examples/organizrUser.yaml
   securitySchemes:
     plex_auth:
       type: oauth2
@@ -67,27 +56,27 @@ tags:
     x-displayName: The PeUD User Model
     description: |
       This is the PeUD User model
-      <SchemaDefinition schemaRef="#/components/schemas/plexUser" exampleRef="#/components/examples/plexUser" />
+      <SchemaDefinition schemaRef="#/components/schemas/plexUser" />
   - name: plex_user_model
     x-displayName: The Plex User Model
     description: |
       This is the Plex User model as it is given to us by Plex
-      <SchemaDefinition schemaRef="#/components/schemas/plexUser" exampleRef="#/components/examples/plexUser" />
+      <SchemaDefinition schemaRef="#/components/schemas/plexUser"/>
   - name: tautulli_user_model
     x-displayName: The Tautulli User Model
     description: |
       This is the Tautulli User model as it is given to us by Tautulli
-      <SchemaDefinition schemaRef="#/components/schemas/tautulliUser" exampleRef="#/components/examples/tautulliUser" />
+      <SchemaDefinition schemaRef="#/components/schemas/tautulliUser" />
   - name: organizr_user_model
     x-displayName: The Organizr User Model
     description: |
       This is the Organizr User model as it is given to us by Organizr
-      <SchemaDefinition schemaRef="#/components/schemas/plexUser" exampleRef="#/components/examples/organizrUser" />
+      <SchemaDefinition schemaRef="#/components/schemas/plexUser" />
   - name: ombi_user_model
     x-displayName: The Ombi User Model
     description: |
       This is the Ombi User model... not even close to what we are given by ombi. (more info later)
-      <SchemaDefinition schemaRef="#/components/schemas/plexUser" exampleRef="#/components/examples/ombiUser" />
+      <SchemaDefinition schemaRef="#/components/schemas/plexUser" />
 x-tagGroups:
   - name: General
     tags:

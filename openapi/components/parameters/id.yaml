@@ -1,0 +1,6 @@
+name: id
+in: path
+description: User ID according to service
+required: true
+schema:
+  type: integer

@@ -3,5 +3,3 @@ content:
   application/json:
     schema:
       $ref: ../schemas/version.yaml
-    example:
-      $ref: ../examples/version.yaml
