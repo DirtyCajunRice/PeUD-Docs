@@ -29,9 +29,9 @@ paths:
 components:
   schemas:
     plexUser:
-      $ref: components/schemas/plexUser.yaml
+      $ref: components/schemas/plex/user.yaml
     tautulliUser:
-      $ref: components/schemas/tautulliUser.yaml
+      $ref: components/schemas/tautulli/user.yaml
 #    ombiUser:
 #      $ref: components/schemas/ombiUser.yaml
 #    organizrUser:
@@ -80,7 +80,7 @@ tags:
 x-tagGroups:
   - name: General
     tags:
-      - general
+      - information
   - name: User Management
     tags:
       - user

@@ -1,0 +1,28 @@
+type: object
+properties:
+  id:
+    $ref: userID.yaml
+  uuid:
+    $ref: UUID.yaml
+  hasPassword:
+    $ref: hasPassword.yaml
+  username:
+    $ref: username.yaml
+  email:
+    $ref: email.yaml
+  thumb:
+    $ref: thumb.yaml
+  title:
+    $ref: title.yaml
+  home:
+    $ref: home.yaml
+  restricted:
+    $ref: restricted.yaml
+  status:
+    $ref: status.yaml
+  admin:
+    $ref: admin.yaml
+  guest:
+    $ref: guest.yaml
+  protected:
+    $ref: protected.yaml

@@ -1,0 +1,48 @@
+type: object
+properties:
+  row_id:
+    $ref: rowID.yaml
+  user_id:
+    $ref: ../plex/userID.yaml
+  username:
+    $ref: ../plex/username.yaml
+  friendly_name:
+    $ref: friendlyName.yaml
+  email:
+    $ref: ../plex/email.yaml
+  thumb:
+    $ref: ../plex/thumb.yaml
+  is_active:
+    $ref: isActive.yaml
+  is_home_user:
+    $ref: ../plex/home.yaml
+  is_restricted:
+    $ref: ../plex/restricted.yaml
+  is_admin:
+    $ref: ../plex/admin.yaml
+  is_guest:
+    $ref: ../plex/guest.yaml
+  is_allow_sync:
+    $ref: ../plex/allowSync.yaml
+  protected:
+    $ref: ../plex/protected.yaml
+  filter_all:
+    $ref: ../plex/filterAll.yaml
+  filter_movies:
+    $ref: ../plex/filterMovies.yaml
+  filter_music:
+    $ref: ../plex/filterMusic.yaml
+  filter_photos:
+    $ref: ../plex/filterPhotos.yaml
+  filter_television:
+    $ref: ../plex/filterTelevision.yaml
+  do_notify:
+    $ref: doNotify.yaml
+  keep_history:
+    $ref: keepHistory.yaml
+  allow_guest:
+    $ref: allowGuest.yaml
+  server_token:
+    $ref: ../plex/serverToken.yaml
+  shared_libraries:
+    $ref: ../plex/sharedLibraries.yaml

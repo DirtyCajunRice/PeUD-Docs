@@ -3,5 +3,5 @@ content:
   application/json:
     schema:
       oneOf:
-        - $ref: ../schemas/plexUser.yaml
-        - $ref: ../schemas/tautulliUser.yaml
+        - $ref: ../schemas/plex/user.yaml
+        - $ref: ../schemas/tautulli/user.yaml

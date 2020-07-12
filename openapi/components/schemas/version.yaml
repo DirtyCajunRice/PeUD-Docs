@@ -1,6 +1,6 @@
 type: object
 properties:
   version:
-    $ref: ./serverVersion.yaml
+    $ref: serverVersion.yaml
   date:
-    $ref: ./buildDate.yaml
+    $ref: buildDate.yaml
