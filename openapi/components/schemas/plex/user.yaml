@@ -2,10 +2,6 @@ type: object
 properties:
   id:
     $ref: ID.yaml
-  uuid:
-    $ref: UUID.yaml
-  hasPassword:
-    $ref: hasPassword.yaml
   username:
     $ref: username.yaml
   email:
@@ -18,11 +14,30 @@ properties:
     $ref: home.yaml
   restricted:
     $ref: restricted.yaml
-  status:
-    $ref: status.yaml
-  admin:
-    $ref: admin.yaml
-  guest:
-    $ref: guest.yaml
   protected:
     $ref: protected.yaml
+  filterAll:
+    $ref: filterAll.yaml
+  filterMovies:
+    $ref: filterMovies.yaml
+  filterMusic:
+    $ref: filterMusic.yaml
+  filterPhotos:
+    $ref: filterPhotos.yaml
+  filterTelevision:
+    $ref: filterTelevision.yaml
+  allowTuners:
+    $ref: allowTuners.yaml
+  allowSync:
+    $ref: allowSync.yaml
+  allowCameraUpload:
+    $ref: allowCameraUpload.yaml
+  allowChannels:
+    $ref: allowChannels.yaml
+  recommendationsPlaylistId:
+    $ref: recommendationsPlaylistId.yaml
+  plexUserServers:
+    type: array
+    items:
+      $ref: server/userServer.yaml
+

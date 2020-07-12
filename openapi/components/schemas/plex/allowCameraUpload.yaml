@@ -1,0 +1,4 @@
+description: Camera upload priviledge
+readOnly: true
+type: boolean
+example: false

@@ -1,0 +1,4 @@
+description: Plex account tuner priviledge
+readOnly: true
+type: boolean
+example: false

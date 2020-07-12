@@ -1,0 +1,4 @@
+description: Unique ID for server
+readOnly: true
+type: integer
+example: 123123123

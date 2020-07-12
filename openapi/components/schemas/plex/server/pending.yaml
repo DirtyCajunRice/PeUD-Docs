@@ -1,0 +1,4 @@
+description: Server invite pending
+readOnly: true
+type: boolean
+example: false

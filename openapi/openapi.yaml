@@ -32,6 +32,8 @@ components:
   schemas:
     plexUser:
       $ref: components/schemas/plex/user.yaml
+    plexUserServer:
+      $ref: components/schemas/plex/server/userServer.yaml
     tautulliUser:
       $ref: components/schemas/tautulli/user.yaml
 #    ombiUser:

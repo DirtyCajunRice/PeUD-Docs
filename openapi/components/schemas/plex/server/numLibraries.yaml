@@ -1,0 +1,4 @@
+description: Count of libraries shared
+readOnly: true
+type: integer
+example: 3

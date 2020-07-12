@@ -1,0 +1,20 @@
+type: object
+properties:
+  id:
+    $ref: id.yaml
+  serverId:
+    $ref: serverId.yaml
+  machineIdentifier:
+    $ref: machineIdentifier.yaml
+  name:
+    $ref: name.yaml
+  lastSeenAt:
+    $ref: lastSeenAt.yaml
+  numLibraries:
+    $ref: numLibraries.yaml
+  allLibraries:
+    $ref: allLibraries.yaml
+  owned:
+    $ref: owned.yaml
+  pending:
+    $ref: pending.yaml

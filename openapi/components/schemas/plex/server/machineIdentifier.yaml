@@ -1,0 +1,4 @@
+description: Server unique machine identifier
+readOnly: true
+type: string
+example: 30b15d72249fecfxacd1e4g77f3f69bb2a2d5fa1
