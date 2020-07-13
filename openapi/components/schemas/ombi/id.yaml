@@ -1,0 +1,4 @@
+description: User ID
+readOnly: true
+type: string
+example: 168190ef-90ab-4b7d-a82f-0cd949f804b4

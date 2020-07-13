@@ -1,0 +1,18 @@
+type: object
+properties:
+  userId:
+    $ref: id.yaml
+  sonarrQualityProfileAnime:
+    $ref: userQualityProfiles/sonarrQualityProfileAnime.yaml
+  sonarrRootPathAnime:
+    $ref: userQualityProfiles/sonarrRootPathAnime.yaml
+  sonarrRootPath:
+    $ref: userQualityProfiles/sonarrRootPath.yaml
+  sonarrQualityProfile:
+    $ref: userQualityProfiles/sonarrQualityProfile.yaml
+  radarrRootPath:
+    $ref: userQualityProfiles/radarrRootPath.yaml
+  radarrQualityProfile:
+    $ref: userQualityProfiles/radarrQualityProfile.yaml
+  id:
+    $ref: userQualityProfiles/id.yaml

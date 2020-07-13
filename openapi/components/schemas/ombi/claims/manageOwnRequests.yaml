@@ -1,0 +1,4 @@
+description: Own request management permissions
+readOnly: true
+type: boolean
+example: true

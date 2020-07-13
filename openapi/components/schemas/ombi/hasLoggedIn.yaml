@@ -1,0 +1,4 @@
+description: Logged in atleast once
+readOnly: true
+type: boolean
+example: true

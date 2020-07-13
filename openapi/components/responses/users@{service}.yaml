@@ -12,3 +12,6 @@ content:
        - type: array
          items:
            $ref: ../schemas/organizr/user.yaml
+       - type: array
+         items:
+           $ref: ../schemas/ombi/user.yaml

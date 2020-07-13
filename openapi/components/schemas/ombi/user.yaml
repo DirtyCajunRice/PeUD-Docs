@@ -1,0 +1,36 @@
+type: object
+properties:
+  id:
+    $ref: id.yaml
+  userName:
+    $ref: ../plex/username.yaml
+  alias:
+    $ref: alias.yaml
+  emailAddress:
+    $ref: ../plex/email.yaml
+  password:
+    $ref: password.yaml
+  lastLoggedIn:
+    $ref: lastLoggedIn.yaml
+  language:
+    $ref: language.yaml
+  hasLoggedIn:
+    $ref: hasLoggedIn.yaml
+  userType:
+    $ref: userType.yaml
+  movieRequestLimit:
+    $ref: movieRequestLimit.yaml
+  episodeRequestLimit:
+    $ref: episodeRequestLimit.yaml
+  episodeRequestQuota:
+    $ref: episodeRequestQuota.yaml
+  movieRequestQuota:
+    $ref: movieRequestQuota.yaml
+  musicRequestQuota:
+    $ref: musicRequestQuota.yaml
+  musicRequestLimit:
+    $ref: musicRequestLimit.yaml
+  claims:
+    $ref: claims.yaml
+  userQualityProfiles:
+    $ref: userQualityProfiles.yaml

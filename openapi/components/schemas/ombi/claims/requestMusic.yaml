@@ -1,0 +1,4 @@
+description: Request music permissions
+readOnly: true
+type: boolean
+example: true

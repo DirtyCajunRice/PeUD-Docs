@@ -1,0 +1,4 @@
+description: language for the UI
+readOnly: true
+type: string
+example: "en"

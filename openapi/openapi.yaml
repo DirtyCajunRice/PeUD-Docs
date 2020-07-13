@@ -36,8 +36,12 @@ components:
       $ref: components/schemas/plex/server/userServer.yaml
     tautulliUser:
       $ref: components/schemas/tautulli/user.yaml
-#    ombiUser:
-#      $ref: components/schemas/ombiUser.yaml
+    ombiUser:
+      $ref: components/schemas/ombi/user.yaml
+    ombiUserClaims:
+      $ref: components/schemas/ombi/claims.yaml
+    ombiUseruserQualityProfiles:
+      $ref: components/schemas/ombi/userQualityProfiles.yaml
     organizrUser:
       $ref: components/schemas/organizr/user.yaml
   securitySchemes:
@@ -78,11 +82,11 @@ tags:
     description: |
       This is the Organizr User model as it is given to us by Organizr
       <SchemaDefinition schemaRef="#/components/schemas/organizrUser" />
-#  - name: ombi_user_model
-#    x-displayName: The Ombi User Model
-#    description: |
-#      This is the Ombi User model... not even close to what we are given by ombi. (more info later)
-#      <SchemaDefinition schemaRef="#/components/schemas/ombiUser" />
+  - name: ombi_user_model
+    x-displayName: The Ombi User Model
+    description: |
+      This is the Ombi User model. I changed the claims response to a dictionary from an array.
+      <SchemaDefinition schemaRef="#/components/schemas/ombiUser" />
 x-tagGroups:
   - name: General
     tags:

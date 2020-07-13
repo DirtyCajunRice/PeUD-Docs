@@ -1,0 +1,27 @@
+type: object
+properties:
+  requestTv:
+    $ref: claims/requestTv.yaml
+  requestMovie:
+    $ref: claims/requestMovie.yaml
+  autoApproveMovie:
+    $ref: claims/autoApproveMovie.yaml
+  admin:
+    $ref: claims/admin.yaml
+  autoApproveTv:
+    $ref: claims/autoApproveTv.yaml
+  autoApproveMusic:
+    $ref: claims/autoApproveMusic.yaml
+  requestMusic:
+    $ref: claims/requestMusic.yaml
+  powerUser:
+    $ref: claims/powerUser.yaml
+  disabled:
+    $ref: claims/disabled.yaml
+  receivesNewsletter:
+    $ref: claims/receivesNewsletter.yaml
+  manageOwnRequests:
+    $ref: claims/manageOwnRequests.yaml
+  editCustomPage:
+    $ref: claims/editCustomPage.yaml
+

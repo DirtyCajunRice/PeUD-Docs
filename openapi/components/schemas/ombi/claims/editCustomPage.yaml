@@ -1,0 +1,4 @@
+description: Custom page edit permissions
+readOnly: true
+type: boolean
+example: true

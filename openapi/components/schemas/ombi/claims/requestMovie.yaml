@@ -1,0 +1,4 @@
+description: Request movie permissions
+readOnly: true
+type: boolean
+example: true

@@ -1,0 +1,4 @@
+description: Send newsletter status
+readOnly: true
+type: boolean
+example: false

@@ -1,0 +1,4 @@
+description: Admin permissions
+readOnly: true
+type: boolean
+example: true
